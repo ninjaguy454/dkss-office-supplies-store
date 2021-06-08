@@ -31,7 +31,7 @@ class Customer(models.Model):
 
 
 # Product model
-class product(models.Model):
+class Product(models.Model):
     product_name = models.CharField(max_length=100, help_text='Enter a product name (e.g. Stapler)')
     product_description = models.TextField()
     price = models.DecimalField(max_digits=15, decimal_places=2)

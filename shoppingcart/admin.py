@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import Customer
-from .models import product
+from .models import Product
 
 
 class CustomerList(admin.ModelAdmin):
@@ -24,4 +24,4 @@ class ProductList(admin.ModelAdmin):
 
 
 # Model Registers
-admin.site.register(product, ProductList)
+admin.site.register(Product, ProductList)
