@@ -7,15 +7,14 @@ class CustomerList(admin.ModelAdmin):
     list_display = (
         'first_name', 'last_name', 'email', 'home_phone', 'work_phone', 'cell_phone', 'addr_line1', 'addr_line2',
         'addr_line3', 'addr_line4', 'city', 'state', 'postal_code')
-    list_filter = ('cust_name', 'organization')
-    search_fields = ('cust_name',)
-    ordering = ['cust_name']
+    list_filter = ('first_name', 'last_name')
+    search_fields = ['first_name']
+    ordering = ['first_name']
 
 
-admin.site.register(Customer)
+admin.site.register(Customer, CustomerList)
 
 
-# Admin Classes
 class ProductList(admin.ModelAdmin):
     list_display = ('product_name', 'product_description', 'price')
     list_filter = ('product_name', 'price')

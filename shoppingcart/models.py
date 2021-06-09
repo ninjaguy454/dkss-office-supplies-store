@@ -17,6 +17,8 @@ class Customer(models.Model):
     city = models.CharField(max_length=50)
     state = models.CharField(max_length=50)
     postal_code = models.CharField(max_length=50)
+    created_date = models.DateTimeField(default=timezone.now)
+    updated_date = models.DateTimeField(auto_now_add=True)
 
     def created(self):
         self.created_date = timezone.now()
