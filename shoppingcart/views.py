@@ -8,3 +8,9 @@ from django.db.models import Sum
 from _decimal import Decimal
 
 # Create your views here.
+
+now = timezone.now()
+
+
+def home(request):
+    return render(request, 'shoppingcart/home.html', {'shoppingcart': home})
