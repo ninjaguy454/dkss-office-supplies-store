@@ -69,9 +69,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Customers</a></li>
-                <li><a href="">Products</a></li>
+                <li><a href="{% url 'shoppingcart:home' %}">Home</a></li>
+                <!--<li><a href="">Customers</a></li> -->
+                <li><a href="{% url 'shoppingcart:product_list' %}">Products</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -99,6 +99,7 @@
                     <!-- Example row of columns -->
                     <div class="row">
                         <div class="col-md-3">
+                            <!--
                             <div class="thumbnail">
                                 <img src="{% static "images/customer.jpg" %}" alt="customer"/>
                                 <div class="caption">
@@ -111,6 +112,7 @@
                                     {% endif %}
                                 </div>
                             </div>
+                            -->
                         </div>
                         <div class="col-md-3">
                             <div class="thumbnail">
@@ -118,13 +120,14 @@
                                 <div class="caption">
                                     <h2>Products</h2>
                                     <p>Our food and services are second to none.</p>
-                                    <p><a class="btn btn-default" href=""
+                                    <p><a class="btn btn-default" href="{% url 'shoppingcart:product_list' %}"
                                            role="button">View
                                         details &raquo;</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3">
+                            <!--
                             <div class="thumbnail">
                                 <img src="{% static "images/lunch.jpeg" %}" alt="lunch"/>
                                 <div class="caption">
@@ -134,6 +137,7 @@
                                         details &raquo;</a></p>
                                 </div>
                             </div>
+                            -->
                         </div>
 
                     </div>
