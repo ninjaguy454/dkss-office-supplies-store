@@ -8,14 +8,14 @@ Scott Test
 
 # Deploy to PythonAnywhere
 
-Step 1 : Open Console: 
+  # Step 1 : Open Console: 
 
-https://www.pythonanywhere.com/user/dkssstore/consoles/20490846/
+  https://www.pythonanywhere.com/user/dkssstore/consoles/20490846/
 
-PyhtonAnywhere Username : dkssstore
+  PyhtonAnywhere Username : dkssstore
 
-Associated Email Address: dkssstore@gmail.com
+  Associated Email Address: dkssstore@gmail.com
 
-Step 2: Run deploy command
+  # Step 2: Run deploy command
 
-pa_autoconfigure_django.py --python=3.8 https://github.com/kbmaddineni/dkss-office-supplies-store.git --branch main --nuke
+  pa_autoconfigure_django.py --python=3.8 https://github.com/kbmaddineni/dkss-office-supplies-store.git --branch main --nuke
