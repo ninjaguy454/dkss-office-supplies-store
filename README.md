@@ -1,10 +1,9 @@
-## dkss-office-supplies-store
-Admin login-
-Super user has been created for each team member:
-username: individual name(all lower case)
-e-mail: individual uno's email address
-password: DKSS123.
-Scott Test
+# DKSS Office Supplies Store
+## Admin login
+  Super user has been created for each team member:
+  username: individual name(firstname, all lower case)
+  e-mail: individual uno's email address
+  password: DKSS123.
 
 ## Deploy to PythonAnywhere
 
