@@ -13,6 +13,7 @@ Step 1 : Open Console:
 https://www.pythonanywhere.com/user/dkssstore/consoles/20490846/
 
 PyhtonAnywhere Username : dkssstore
+
 Associated Email Address: dkssstore@gmail.com
 
 Step 2: Run deploy command
